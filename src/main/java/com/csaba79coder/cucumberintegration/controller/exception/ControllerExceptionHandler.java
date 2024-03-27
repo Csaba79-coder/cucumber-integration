@@ -14,7 +14,7 @@ import static com.csaba79coder.cucumberintegration.value.ErrorCode.ERROR_CODE_00
 public class ControllerExceptionHandler {
 
     @ExceptionHandler(value = {UsernameAlreadyExistsException.class})
-    public ResponseEntity<Object> handleNoSuchElementException(UsernameAlreadyExistsException ex) {
+    public ResponseEntity<Object> handleUsernameAlreadyExistsException(UsernameAlreadyExistsException ex) {
         return new ResponseEntity<>(responseBodyWithMessage(ERROR_CODE_001, ex.getMessage()), HttpStatus.NOT_FOUND);
     }
 
