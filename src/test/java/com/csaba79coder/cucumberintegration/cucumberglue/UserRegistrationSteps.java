@@ -4,7 +4,6 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import lombok.RequiredArgsConstructor;
-import org.junit.Assert;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 
