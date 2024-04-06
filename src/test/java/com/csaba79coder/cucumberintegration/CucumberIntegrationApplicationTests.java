@@ -8,6 +8,6 @@ class CucumberIntegrationApplicationTests {
 
     @Test
     void contextLoads() {
+        
     }
-
 }
